@@ -2,17 +2,20 @@ const mtk = 80;
 const bahasaIndonesia = 90;
 const bahasaInggris = 89;
 const ipa = 69;
-let grade = "";
-const jumlah = mtk + bahasaIndonesia + bahasaInggris + ipa;
-const average = jumlah / 4;
+let grade = 91;
 
-if (mtk == "" || bahasaIndonesia == "" || bahasaInggris == "" || ipa == "") {
+// validasi
+if (mtk === "" || bahasaIndonesia === "" || bahasaInggris === "" || ipa === "") {
   console.log("nilai harus di isi");
   process.exit();
 } else {
   console.log("hasil UN");
 }
 
+const jumlah = mtk + bahasaIndonesia + bahasaInggris + ipa;
+const average = jumlah / 4;
+
+// grade
 if (average >= 90) {
   grade = "A";
 } else if (average >= 80) {

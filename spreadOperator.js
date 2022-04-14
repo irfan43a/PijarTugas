@@ -20,11 +20,9 @@ const data2 = {
 };
 
 // soal a
-const dataSaya = { ...data, ...data2 };
+const dataSaya = { ...data, ...data2, makananFavorit: ["mie", "baso", "urat", "terlor", "cincang"] };
 console.log(dataSaya);
 
 // soal b
-const {
-  address: { street, city },
-} = data;
+const { street, city } = data.address;
 console.log(street, city);
