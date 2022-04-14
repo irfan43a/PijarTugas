@@ -2,7 +2,7 @@ const mtk = 80;
 const bahasaIndonesia = 90;
 const bahasaInggris = 89;
 const ipa = 69;
-let grade = 91;
+let grade = "";
 
 // validasi
 if (mtk === "" || bahasaIndonesia === "" || bahasaInggris === "" || ipa === "") {
