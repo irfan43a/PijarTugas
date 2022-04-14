@@ -1,3 +1,12 @@
+let angka = "";
+for (let i = 5; i >= 1; i--) {
+  for (let j = 1; j <= i; j++) {
+    angka += j;
+  }
+  angka += "\n";
+}
+console.log(angka);
+
 // segitiga bintang
 // let hasil = "";
 // for (let i = 0; i < 5; i++) {
@@ -24,12 +33,3 @@
 //   console.log(a);
 //   a = "";
 // }
-
-let angka = "";
-for (let i = 5; i >= 1; i--) {
-  for (let j = 1; j <= i; j++) {
-    angka += j;
-  }
-  angka += "\n";
-}
-console.log(angka);
